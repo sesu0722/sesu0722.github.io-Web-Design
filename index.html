@@ -9,10 +9,13 @@
     <title>Bootstrap Visualization Dashboard</title>
 
     <!-- Boostrap Stylesheet -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
 
     <!-- Our own CSS stylesheet -->
-    <link rel="stylesheet" href="css/styles.css" media="screen">
+    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+
+
+
 
   </head>
 
@@ -31,7 +34,7 @@
               <span class="icon-bar"></span>
             </button>
             <div class="col-xs-9 phone-nav">
-              <a class="navbar-brand" href="#" id="logo">Latitude</a>
+              <a class="navbar-brand" href="index.html" id="logo">Latitude</a>
             </div>
           </div>
 
@@ -57,6 +60,57 @@
     <!-- End of navbar -->
 
     <!-- Start of container -->
+  
+  <div class="container">
+
+    <div class="col-md-8">
+      <style>
+        img {float: left;
+              margin: 20px;
+              }
+      </style>
+
+      <div class="text-block1">        
+      <h1>Summary: Latitude vs. X</h1>
+      <div>
+      <a href="assets/images/Fig1.png">
+      <img src="assets/images/Fig1.png" title = "Latitude vs. X" alt="Latitude vs. X" width="200" height="200">
+      </a>
+      </div>
+      <p>The purpose of this project was to analyze how weather chamges as you get closer to the equator.
+        To accomplish this analysis, we first pulled data from the OpenWeatherAPI to assemble a dataset
+        on over 500 cities.
+      </p>
+       <p> After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. Latitude.
+        Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides 
+        the source data and visualizations created as part of the analysis, as well as explanations of any trands
+        and correlations witnessed.
+       </p>
+      </div> 
+    </div>
+   
+    <div class="col-md-3" >
+      
+      <div class="text-block">
+        <h2>Visualizations</h2>
+        <a href="temp.html">
+          <img src="assets/images/Fig1.png"  title = "Latitude vs. Temperature" alt="Latitude vs. Temp" width="115" height="115">
+          </a>
+        <a href="humidity.html">
+          <img src="assets/images/Fig2.png" title = "Latitude vs. Humidity" alt="Latitude vs. Humidity" width="115" height="115">
+          </a>
+        <a href="cloudiness.html">
+          <img src="assets/images/Fig3.png" title = "Latitude vs. Cloudiness" alt="Latitude vs. Cloudiness" width="115" height="115">
+          </a>
+        <a href="wind.html">
+          <img src="assets/images/Fig4.png" title = "Latitude vs. WindSpeed" alt="Latitude vs. WindSpeed" width="115" height="115">
+          </a> 
+      </div>
+  
+    </div>
+
+
+  </div> 
    
     <!-- End of container -->
 

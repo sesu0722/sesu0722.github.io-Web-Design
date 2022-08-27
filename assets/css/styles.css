@@ -15,7 +15,7 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
   /* Visual */
-  background-color: #ededed;
+  background-color: aliceblue;
 }
 
 /* Media query for body */
@@ -215,6 +215,7 @@ body {
 
   /* Typography */
   text-align: center;
+
 }
 
 /* ----IMAGE NAV END---- */
@@ -271,3 +272,43 @@ body {
 }
 
 /* ----FOOTER END---- */
+
+h1{
+  color: #4aaaa5;
+  padding-bottom: 20px;
+}
+
+h2{
+  color: #4aaaa5;
+}
+
+h3{
+  color: #4aaaa5;
+  text-align: center;
+}
+
+p{
+  font-size: 20px;
+  text-align: justify;
+}
+
+.col-md-6{
+  
+  text-align: center;
+}
+
+.text-block {
+  position: relative;
+  top: 25px;
+  width:100%;
+  height: 100%;
+  text-align: center;
+  color: black;
+ 
+}
+
+.text-block1 {
+  padding: 3%;
+  text-align: justify;
+  
+}
