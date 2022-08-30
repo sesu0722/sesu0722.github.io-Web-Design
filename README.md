@@ -13,6 +13,7 @@ There are individual pages for each plot and a side bar to navigate between them
 
 ### Website
 
+Link: https://sesu0722.github.io/sesu0722.github.io-Web-Design-Challenge/
 
 The website consists of seven pages in total, including:
 
