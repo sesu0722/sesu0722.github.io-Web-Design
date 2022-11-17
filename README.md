@@ -7,7 +7,7 @@ Use HTML and CSS to create a dashboard featuring the analysis and visualization 
 
 ## Introduction
 
-For this assignment, I create a website by using visualizations that were created by the weather data (Resources/cities.csv) provided.
+For this project, I create a website by using visualizations that were created by the weather data (Resources/cities.csv) provided.
 
 There are individual pages for each plot and a side bar to navigate between them. These pages contain the visualizations and analysis. A landing page (index.html) to explanation of the project and links to each visualizations page, along with another page to present the data used to build them.
 
